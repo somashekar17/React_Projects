@@ -1,0 +1,25 @@
+/* Sixteen.css */
+
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  

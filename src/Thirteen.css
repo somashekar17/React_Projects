@@ -1,0 +1,53 @@
+/* Thirteen.css */
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049; /* Dark green background on hover */
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Add more styles as needed */

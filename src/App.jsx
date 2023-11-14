@@ -10,10 +10,20 @@
 // import Nine from "./Nine"
 // import Ten from "./Ten"
 // import Eleven from "./Eleven"
+//import Twelve from "./Twelve"
+//import Thirteen from "./Thirteen"
+//import Fourteen from "./Fourteen"
+//import Fifteen from "./Fifteen"
+//import Sixteen from "./Sixteen"
+//import Seventeen from "./Seventeen"
+//import Eighteen from "./Eighteen"
 
-import Twelve from "./Twelve"
+import Nineteen from "./Nineteen";
+import { ThemeProvider } from "./ThemeContext";
+import NineteenComp from "./NineteenComp";
 
 function App() {
+  //const items=['Team1','Item1','Team2','Item2','Another Team','Another Item']
   return (
     <div>
       {/* <One/> */}
@@ -27,9 +37,21 @@ function App() {
       {/* <Nine/> */}
       {/* <Ten/> */}
       {/* <Eleven/> */}
-      <Twelve/>
+      {/* <Twelve/> */}
+      {/* <Thirteen/> */}
+      {/* <Fourteen/> */}
+      {/* <Fifteen items={items}/> */}
+      {/* <Sixteen items={items} itemsPerPage={2}/> */}
+      {/* <Seventeen/> */}
+      {/* <Eighteen/> */}
+      <ThemeProvider>
+        <div className='App'>
+        <Nineteen/>
+      <NineteenComp/>
+        </div>
+      </ThemeProvider>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
